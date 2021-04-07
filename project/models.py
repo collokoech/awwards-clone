@@ -10,7 +10,6 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     bio = models.TextField(blank=True)
     photo = CloudinaryField('profile_pics/', blank=True)
-    image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
     def save_profile(self):
         self.save()                   
@@ -19,7 +18,7 @@ class Profile(models.Model):
         self.delete()
     
     def __str__(self):
-        return f'{self.user.username} Profiles'
+        return self.user.username
     
     class Meta:
         verbose_name = 'Profile'
