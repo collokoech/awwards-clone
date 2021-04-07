@@ -19,7 +19,7 @@ class Profile(models.Model):
         self.delete()
     
     def __str__(self):
-        return f'{self.user.username} Profile's
+        return f'{self.user.username} Profiles'
     
     class Meta:
         verbose_name = 'Profile'
