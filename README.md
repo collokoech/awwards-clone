@@ -1,38 +1,30 @@
 # PROJECT NAME
-## Awwards
+## awwards-clone
 
 ## AUTHOR
-* Emmanuel cheriyot
+* Collins Cheruiyot Koech
 
 ## DESCRIPTION
-This is an application that allow user to post a project he/she has created and get it reviewed by his or her peers or rated according to design,usability and content.
+The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT
 
-* User must sign in to be able to post projects and review projects for others users.
-* User is able to post project.
+* The user must sign in to be able to post projects and review projects for others users.
+
 
 
 ## FEATURES
 
-* Users need to Sign in to the application to post projects and review projects.
-
-* Users can view different projects and their details.
-
-* Users can post a project to be rated/viewed.
-
-* Users can search for different projects.
-
-* Users can view projects overall score.
-
-* Users can view their profile page with all their published projects.
-
-* Users can rate/review other users' projects.
-
+--View posted projects and their details
+--Post a project to be rated/reviewed
+--Rate/ review other users' projects
+--Search for projects 
+--View projects overall score
+--View my profile page
 
 ## SETUP INSTALLATION
 
-1.Clone or download and unzip the repository from github,https://github.com/jerumanu/awards.git
+1.Clone or download and unzip the repository from github,https://github.com/collokoech/awwards-clone.git
 
 2.Activate virtual environment using python3.8 as default handler virtualenv -p /usr/bin/python3.8 venv && source venv/bin/activate
 
@@ -56,13 +48,12 @@ This is an application that allow user to post a project he/she has created and 
 ## TECHNOLOGIES USED
 * Python 3.8
 * Bootstrap
-* css
-* HTML
-* Postgress
+* HTML/CSS
+* Postgre sql
 
 
 
 ## LICENSE
 The project is under[MIT license](/blob/master/LICENSE)
-Copyright &copy; 2019.All rigths reserved
+Copyright @2021.Collokoech
   
